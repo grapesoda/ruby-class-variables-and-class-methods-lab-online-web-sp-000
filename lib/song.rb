@@ -12,8 +12,9 @@ class Song
   def initialize(name, artist, genre)
     @name = name
     @artist = artist
-    @@artists << artist
     @genre = genre
+    @@artists << artist
+    
     @@genres << genre
     @@count += 1
   end
